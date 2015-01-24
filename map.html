@@ -26,7 +26,25 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <div id="loading" style="font-color:#ffffff">Now Loading....</div>
-        <div id="map_canvas" style="width:640px; height:600px"></div>
+        <!-- Make sure all your bars are the first things in your <body> -->
+        <header class="bar bar-nav">
+            <h1 class="title">地図から探す</h1>
+        </header>
+        <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+        <div class="content">
+            <div id="loading" style="font-color:#ffffff">Now Loading....</div>
+            <div id="map_canvas" style="width:640px; height:600px"></div>
+        </div>
+        <nav class="bar bar-tab">
+        <a class="tab-item active" href="#">
+            FOOD
+        </a>
+        <a class="tab-item" href="#">
+            HOBY
+        </a>
+        <a class="tab-item" href="#">
+            W.C.
+        </a>
+      </nav>
     </body>
 </html>
