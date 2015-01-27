@@ -1,6 +1,13 @@
 body {
+<<<<<<< HEAD
 	background-image: url("../img/ichiba-kan.jpg");
     background-size: cover;
+=======
+	background-image: url("../img/bg.jpg");
+    background-size: cover;
+    
+    background-position:center center;
+>>>>>>> 28ffc6a7d4d58921a93b100e3cf98b3174b36977
     padding-top: 20px;
     padding-bottom: 40px;
     color:#EEE;
@@ -32,9 +39,25 @@ body {
     height:640px;
 }
 .jumbotron .prepass-img {
+<<<<<<< HEAD
     margin: 60px 0;
 }
 
+=======
+    width: 300px;
+    height: 300px;
+    margin: 40px 0;
+}
+
+.text-bg {
+	background-image: url("../img/text-bg.png");
+    background-repeat:repeat;
+    padding: 15px;
+       -moz-border-radius: 20px;    /* Firefox */
+   -webkit-border-radius: 20px; /* Safari,Chrome */
+   border-radius: 20px;         /* CSS3 */
+}
+>>>>>>> 28ffc6a7d4d58921a93b100e3cf98b3174b36977
 
 /* Supporting marketing content */
 .marketing {
@@ -43,14 +66,78 @@ body {
 .marketing p + h4 {
 	margin-top: 28px;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 800px) {
     .jumbotron h1 {
 	    font-size: 36px;
         line-height: 1;
     }
+=======
+.jumbotron .subtitle {
+	    font-size: 36px;
+        line-height: 2;
+}
+@media screen and (max-width: 767px) {
+    .jumbotron h1 {
+	    font-size: 48px;
+        line-height: 1;
+    }
+    .jumbotron .subtitle {
+	    font-size: 20px;
+    }
+
+>>>>>>> 28ffc6a7d4d58921a93b100e3cf98b3174b36977
     .jumbotron .iphone-img {
 	    width:380px;
         height:640px;
     }
+<<<<<<< HEAD
+=======
+    .jumbotron .prepass-img {
+        width: 240px;
+        height: 240px;
+        margin: 30px 0;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    .jumbotron h1 {
+	    font-size: 36px;
+        line-height: 1;
+    }
+    .jumbotron .subtitle {
+	    font-size: 20px;
+    }
+
+    .jumbotron .iphone-img {
+	    width:304px;
+        height:512px;
+    }
+    .jumbotron .prepass-img {
+        width: 192px;
+        height: 192px;
+        margin: 60px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .jumbotron h1 {
+	    font-size: 36px;
+        line-height: 1;
+    }
+    .jumbotron .subtitle {
+	    font-size: 18px;
+    }
+
+    .jumbotron .iphone-img {
+	    width:274px;
+        height:461px;
+    }
+    .jumbotron .prepass-img {
+        width: 192px;
+        height: 192px;
+        margin: 20px 0;
+    }
+>>>>>>> 28ffc6a7d4d58921a93b100e3cf98b3174b36977
 }
